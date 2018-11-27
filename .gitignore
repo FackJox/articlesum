@@ -1,0 +1,14 @@
+# Python files #
+##########
+*.pyc
+__pycache__/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.idea
+.venv
+
+# Skipping Pipfile and Pipfile.lock as they are causing problems for some dependencies.
+Pipfile
+Pipfile.lock
